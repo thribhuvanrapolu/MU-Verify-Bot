@@ -21,7 +21,7 @@ import numpy as np
 
 #mu_verify_client email id credentials
 gmail.user_name='muverifybot@gmail.com'
-gmail.password='mahindra@123'
+gmail.password=''
 
 #prefix command
 client = commands.Bot(command_prefix=commands.when_mentioned_or('.'), intents = discord.Intents.all())
