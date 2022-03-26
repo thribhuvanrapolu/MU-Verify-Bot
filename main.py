@@ -35,7 +35,7 @@ all_guild_ids = []
 #client goes through this at first
 @client.event
 async def on_ready():
-    print("client started and is running")
+    print("bot started and is running")
     for guild in client.guilds: 
         all_guild_ids.append(guild.id) #command  which helps in storing all guild ids
     print(all_guild_ids)
